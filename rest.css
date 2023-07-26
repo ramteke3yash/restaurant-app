@@ -9,22 +9,12 @@ body {
   line-height: 1.6;
 }
 
-ul {
-  list-style: none;
-}
-
-ul li {
-  padding: 5px;
-  background: #f4f4f4;
-  margin: 5px 0;
-}
-
 header {
-  background: #f4f4f4;
+  background: teal;
   padding: 1rem;
   text-align: center;
 }
-
+/* container style  */
 .container {
   margin: auto;
   width: 500px;
@@ -32,16 +22,18 @@ header {
   padding: 3rem 2rem;
 }
 
+/* Form style */
 #my-form {
   padding: 2rem;
-  background: #f4f4f4;
+  background: lightsalmon;
+  border-radius: 20px;
 }
 
 #my-form label {
   display: block;
 }
 
-#my-form input[type="text"] {
+#my-form input {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -49,6 +41,7 @@ header {
   border: 1px solid #ccc;
 }
 
+/* Button styles */
 .btn {
   display: block;
   width: 100%;
@@ -56,14 +49,15 @@ header {
   border: 0;
   background: #333;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 5px 0;
 }
 
 .btn:hover {
-  background: #444;
+  background: teal;
 }
 
+/* Dark background styles */
 .bg-dark {
   background: #333;
   color: #fff;
@@ -75,3 +69,4 @@ header {
   padding: 5px;
   margin: 5px;
 }
+/*[type="text"]  use to pick individual input box*/
